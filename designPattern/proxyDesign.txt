@@ -1,0 +1,18 @@
+Why Use a Proxy?
+
+
+    Lazy Initialization (Virtual Proxy)
+    Delay costly object creation until it’s actually needed—e.g. deferring loading of a large image, database connection or heavyweight data structure.
+
+    Access Control & Security (Protection Proxy)
+    Gatekeeper that checks permissions or roles before forwarding a request to the real object—e.g. only authorized users can call certain methods.
+
+    Remote Access (Remote/Remote-Proxy)
+    Provide a local “stub” for an object that lives on another server or process, handling the network communication under the hood.
+
+    Performance Optimization (Caching Proxy)
+    Cache expensive calls or computed results so repeat requests return immediately without re-computing or re-fetching.
+
+    Logging, Auditing, or Instrumentation (Logging Proxy)
+    Intercept calls to log parameters, measure timing, count usage, or emit metrics before and/or after delegating to the real object.
+
